@@ -1,17 +1,16 @@
 """
-Escribe un programa 
-que muestre en pantalla los números del 1 al 100, sustituyendo los 
-múltiplos de 3 por el palabro “Fizz” y, a su vez, los múltiplos de 5 
-por “Buzz”. Para los guarismos que, al tiempo, son múltiplos de 3 y 5, 
-utiliza el combinado “FizzBuzz”.
+Autor: Brian Michelle Romero Flores 
+Fecha: 10/08/2023
+--------------------------------------------------------------------------------------------
+Escribe un programa  que muestre en pantalla los números del 1 al 100, 
+sustituyendo los múltiplos de 3 por el palabro “Fizz” y, a su vez, 
+los múltiplos de 5 por “Buzz”. Para los guarismos que, al tiempo,
+son múltiplos de 3 y 5, utiliza el combinado “FizzBuzz”.
 """
-
-
 #funciones 
 def main(int_numero=1):
     
     if (int_numero<=100):
-        #print(int_numero)
         if(int_numero%3==0):
             print("FIZZ")
             int_numero=int_numero+1
